@@ -1,0 +1,345 @@
+/*===========================
+	      GENERAL
+===========================*/
+
+*, body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+button, input[type="submit"]{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #212a8d;
+    margin: auto 10px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+a{
+    color: white;
+    font-weight: 900;
+    -webkit-transition: 0.2s color;
+    transition: 0.2s color;
+    text-decoration: none;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.btn-red{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 20px;
+  background: #ff002b;
+  color: white;
+  letter-spacing: 1pt;
+}
+
+.btn-blue{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 20px;
+  background: #212a8d;
+  color: white;
+  letter-spacing: 1pt;
+}
+/*===========================
+	      Top Header
+===========================*/
+
+
+#top-header{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #212a8d;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.5);
+}
+
+.header-links li{
+    display: inline-block;
+    color: white;
+}
+
+.header-links li a{
+    margin-right: 20px;
+}
+
+.header-links li a:hover{
+    font-size: 15.1px;
+    color: white;
+    text-shadow: 0px 0px 1px white;
+    transition: 3ms all linear;
+}
+
+.modal form label{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color:#212a8d;
+}
+
+.modal form input{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+/*===========================
+	      Menu Header
+===========================*/
+
+#header{
+    width: 100%;
+    background-color: #212663;
+    border-bottom: 2px solid red;
+}
+
+.header-logo a{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: white;
+  font-size: 50px;  
+  letter-spacing: 2pt;
+}
+
+/*----------------------------*\
+	Search
+\*----------------------------*/
+
+.header-search {
+    padding: 10px 0px;
+  }
+  
+.header-search form {
+position: relative;
+}
+
+.header-search form .input-select {
+margin-right: -4px;
+padding: 8px;
+border-radius: 60px 0px 0px 60px;
+}
+
+.header-search form .input {
+width: 50%;
+padding: 6px;
+margin-right: -3px;
+}
+
+.header-search form button{
+  justify-content: center;
+  width: 90px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: white;
+  background: #ff002b;
+  font-size: 23px;
+  padding: 2px 0 2px 0;
+  border: none;
+  border-radius: 0px 60px 60px 0px;
+}
+
+.account img.dropdown-toggle{
+  margin-right: 5px;
+}
+
+.account label{
+  font-size: 25px;
+  color: white;
+}
+
+.account .dropdown-item{
+  color: white;
+  letter-spacing: 1pt;
+  font-size: 18px;
+}
+
+.account .dropdown-item::focus{
+  color: #212663;
+}
+
+#header .dropdown span{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 25px;
+}
+
+/*----------------------------*\
+	    NAV
+\*----------------------------*/
+
+.nav a{
+    color: #212663;
+}
+
+/*====================
+	 CARDS
+=====================*/
+
+.card-box .card-title{
+  letter-spacing: 1pt;
+}
+
+.card-box .btn{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: white;
+  font-size: 20px;
+  padding: 1px 10px;
+  background: #ff002b;
+}
+
+.card-box .btn:hover{
+  font-size: 21px;
+  padding: 1px 12px;
+  background: #ff143b;
+}
+
+
+/*====================
+	 NEWSLETTER
+=====================*/
+
+#newsletter.section {
+    border-top: 2px solid #E4E7ED;
+    margin-top: 30px;
+  }
+  
+.newsletter{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-align: center;
+}
+
+.newsletter p {
+  font-size: 35px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-shadow: 1px 1px 1px rgba(255, 0, 0, 0.9);
+}
+
+.newsletter form {
+  position: relative;
+  max-width: 520px;
+  margin: 30px auto;
+}
+
+.newsletter form .input {
+  text-align: center;
+  width: 300px;
+  padding: 5px 0px 5px 0px;
+  margin-right: -6px;
+  border-radius: 40px 0px 0px 40px;
+  font-size: 20px;
+}
+
+.newsletter form .newsletter-btn {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  width: 160px;
+  padding: 9px 0 4px 0;
+  font-size: 20px;
+  background: #ff002b;
+  color: #FFF;
+  border: none;
+  border-radius: 0px 40px 40px 0px;
+}
+
+.newsletter .newsletter-follow {
+  text-align: center;
+}
+
+.newsletter .newsletter-follow li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.newsletter .newsletter-follow li a {
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: black;
+  border: 1px solid #000000;
+  background-color: rgb(255, 255, 255);
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.newsletter .newsletter-follow li a:hover {
+  background-color: #E4E7ED;
+  color: blue;
+  /*color: #D10024;*/
+}
+
+/*==================
+	 FOOTER
+===================*/
+
+#footer {
+  background: rgba(0, 0, 0, 0.8);
+  color: #B9BABC;
+  margin-top: 30px;
+  border-top: 3px solid #D10024;
+  width: 100%;
+}
+
+#bottom-footer {
+  background: #15161D;;
+}
+
+.footer {
+  margin: 20px 0px;
+}
+
+.footer .footer-title {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-size: 30px;
+  margin: 0px 0px 30px;
+}
+
+.footer-links li {
+  margin-top: 15px;
+}
+
+.footer-links li a {
+  color: #B9BABC;
+}
+
+.footer-links li i {
+  margin-right: 15px;
+  color: #D10024;
+  width: 14px;
+  text-align: center;
+}
+
+.footer-links li a:hover {
+  color: #212a8d;
+  font-size: 17px;
+  text-decoration: underline;
+}
+
+.footer-payments li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.footer-payments li a {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 36px;
+  display: block;
+}
+
+.footer-payments li a:hover {
+  color:#ffffff;
+  font-size: 37px;
+}
+
+.copyright {
+  margin-top: 30px;
+  display: block;
+  font-size: 12px;
+}
+
+.user p{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: white;
+  font-size: 50px;  
+  letter-spacing: 2pt;
+}
